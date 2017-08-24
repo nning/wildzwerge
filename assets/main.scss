@@ -1,0 +1,28 @@
+---
+---
+
+@import "minima";
+
+@font-face {
+  font-family: Greenbeans;
+  src: url('/assets/fonts/greenbeans.eot?#iefix');
+  src: url('/assets/fonts/greenbeans.eot?#iefix') format('eot'),
+    url('/assets/fonts/greenbeans.woff2') format('woff2'),
+    url('/assets/fonts/greenbeans.woff') format('woff');
+}
+
+.site-title,
+.post-title {
+  font-family: Greenbeans;
+
+  // letter-spacing: initial;
+  letter-spacing: .03em;
+}
+
+.site-title {
+  font-size: 42px;
+}
+
+.post-title {
+  font-size: 56px;
+}

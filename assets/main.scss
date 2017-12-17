@@ -1,8 +1,6 @@
 ---
 ---
 
-@import "minima";
-
 @font-face {
   font-family: Greenbeans;
   src: url('/assets/fonts/greenbeans-umlauts.eot?#iefix');
@@ -11,18 +9,38 @@
     url('/assets/fonts/greenbeans-umlauts.woff') format('woff');
 }
 
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.site-header {
+  border-top: initial;
+  margin-top: 3rem;
+}
+
 .site-title,
 .post-title {
-  font-family: Greenbeans;
-
-  // letter-spacing: initial;
-  letter-spacing: .03em;
 }
 
-.site-title {
-  font-size: 42px;
+.headline {
+  font-family: Greenbeans;
+  font-size: 52px;
+
+  letter-spacing: .03em;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .post-title {
-  font-size: 56px;
+  font-size: 48px;
+}
+
+.rss-subscribe {
+  text-align: right;
 }

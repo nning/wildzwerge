@@ -24,7 +24,7 @@ url: "http://neu.wildzwerge.de" # the base hostname & protocol for your site, e.
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
@@ -39,3 +39,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - README.md

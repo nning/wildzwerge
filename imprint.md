@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Impressüm
+title: Impressum
 permalink: /impressum/
 ---
 
-LÖrem Ipsüm
-
-ÄÖÜ
-
-äöü
+Naturkindergarten Wildzwerge e.V.  
+Isarstraße 3  
+28199 Bremen
 
 "Greenbeans" font is made by [Tup
 Wanders](http://www.fontspace.com/profile/Tuppus) and shared under the terms of

@@ -1,0 +1,18 @@
+footer {
+  color: $gray;
+  border-top: 1px solid $gray;
+
+  display: flex;
+
+  margin-top: 5rem;
+  padding: 1rem 2rem;
+
+  ul {
+    @include listreset();
+    flex-grow: 1;
+  }
+
+  a {
+    color: $gray;
+  }
+}

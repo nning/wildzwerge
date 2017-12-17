@@ -1,0 +1,74 @@
+header nav {
+  @mixin menu-shown {
+    display: flex;
+    flex-direction: column;
+  }
+
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  #nav-button, .menu {
+    display: none;
+  }
+
+  label[for="nav-button"] {
+    text-align: right;
+    z-index: 2;
+
+    .menu-icon svg {
+      transform: scale(1.5);
+    }
+  }
+
+  #nav-button:checked ~ .menu {
+    @include menu-shown;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    z-index: 1;
+
+    background-color: #fff;
+    padding: 1rem;
+
+    width: 75vw;
+    height: 100vh;
+
+    .menu-link {
+      font-family: Greenbeans;
+      font-size: 28pt;
+      padding: 1rem;
+    }
+  }
+
+  @include breakpoint($m) {
+    position: relative;
+    top: 0;
+    right: 0;
+
+    label[for="nav-button"] {
+      display: none;
+    }
+
+    .menu {
+      @include menu-shown;
+
+      position: relative;
+
+      background-color: transparent;
+
+      width: 15rem;
+      height: auto;
+
+      padding: 0;
+    }
+  }
+}

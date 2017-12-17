@@ -1,0 +1,21 @@
+header {
+  background: linear-gradient(to bottom, $light-blue 0%, rgba(255, 255, 255, 0) 100%);
+
+  padding: 2rem 2rem 0 2rem;
+
+  img {
+    max-width: 100%;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  @include breakpoint($m) {
+    display: flex;
+
+    :first-child {
+      flex-grow: 1;
+    }
+  }
+}

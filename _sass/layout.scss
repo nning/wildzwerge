@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+.content {
+  width: 100%;
+
+  @include breakpoint($l) {
+    width: $l;
+  }
+}

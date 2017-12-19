@@ -3,7 +3,7 @@
   {% assign default_paths = site.pages | map: "path" %}
   {% assign page_paths = site.header_pages | default: default_paths %}
 
-  <a href="{{ '/' | relative_url }}">
+  <a href="{{ '/' | relative_url }}" class="logo-link">
     <img src="{{ 'assets/logo.svg' | relative_url }}" alt="{{ site.title | escape }}">
     <h1>{{ site.title | escape }}</h1>
   </a>

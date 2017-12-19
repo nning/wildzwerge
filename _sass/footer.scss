@@ -3,6 +3,7 @@ footer {
   border-top: 1px solid $gray;
 
   display: flex;
+  flex-direction: column;
 
   margin-top: 5rem;
   padding: 1rem 2rem;
@@ -14,5 +15,9 @@ footer {
 
   a {
     color: $gray;
+  }
+
+  @include breakpoint($m) {
+    flex-direction: row;
   }
 }

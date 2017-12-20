@@ -13,6 +13,11 @@ header nav {
     display: none;
   }
 
+  #nav-button:checked ~ .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
   label[for="nav-button"] {
     text-align: right;
     z-index: 3;
@@ -20,11 +25,6 @@ header nav {
     .menu-icon svg {
       transform: scale(1.5);
     }
-  }
-
-  #nav-button:checked ~ .menu {
-    display: flex;
-    flex-direction: column;
   }
 
   .menu {
@@ -43,7 +43,7 @@ header nav {
 
     .menu-link {
       font-family: Greenbeans;
-      font-size: 28pt;
+      font-size: 3.2rem;
       color: $black;
       padding: 1rem;
     }

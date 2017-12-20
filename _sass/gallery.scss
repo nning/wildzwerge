@@ -1,0 +1,23 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    max-width: 100%;
+  }
+
+  img {
+    margin-bottom: 1rem;
+  }
+
+  @include breakpoint($m) {
+    flex-direction: row;
+
+    img {
+      &:nth-child(odd) {
+        margin-right: 1rem;
+      }
+    }
+  };
+
+}

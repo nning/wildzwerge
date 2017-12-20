@@ -1,5 +1,5 @@
 header nav {
-  position: fixed;
+  position: absolute;
   top: 2rem;
   right: 2rem;
 
@@ -46,6 +46,10 @@ header nav {
       font-size: 3.2rem;
       color: $black;
       padding: 1rem;
+
+      &--active {
+        text-decoration: underline;
+      }
     }
   }
 

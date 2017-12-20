@@ -1,6 +1,6 @@
 <header role="banner" class="content">
 
-  {% assign default_paths = site.pages | map: "path" %}
+  {% assign default_paths = site.pages | sort: 'order' | map: 'path' %}
   {% assign page_paths = site.header_pages | default: default_paths %}
 
   <a href="{{ '/' | relative_url }}" class="logo-link">
@@ -23,10 +23,15 @@
 
       <div class="menu">
         {% for path in page_paths %}
-          {% assign my_page = site.pages | where: "path", path | first %}
+          {% assign my_page = site.pages | where: 'path', path | first %}
+
+          {% assign active_class = '' %}
+          {% if page.url == my_page.url %}
+            {% assign active_class = 'menu-link--active' %}
+          {% endif %}
 
           {% if my_page.title %}
-            <a class="menu-link" href="{{ my_page.url | relative_url }}">
+            <a class="menu-link {{ active_class }}" href="{{ my_page.url | relative_url }}">
               {{ my_page.title | escape }}
             </a>
           {% endif %}

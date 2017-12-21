@@ -5,24 +5,17 @@ permalink: /impressum/
 order: 2
 ---
 
-## Vereinsadresse
-
-Naturkindergarten Wildzwerge e.V.    
-Weg zum Krähenberg 33A  
-28201 Bremen
-
 ## Vorstand
 
 Karen Schuhmann (1. Vorstand)  
 Marie Tödtemann (2. Vorstand)  
 Ann-Kathrin Seiz (Kassenwärtin)
 
-## Anschrift des Kindergartens
+## Vereins- & Kindergartenadresse
 
-Auf einer Wiese neben dem LidiceHaus  
+Naturkindergarten Wildzwerge e.v.  
 Weg zum Krähenberg 33A  
 28201 Bremen
-
 
 <div id="map" class="map"></div>
 [Link auf OpenStreetMap](http://www.openstreetmap.org/?mlat=53.06180&mlon=8.82937#map=19/53.06180/8.82937)

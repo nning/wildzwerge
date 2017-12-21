@@ -9,7 +9,7 @@ LidiceHaus auf dem Stadtwerder in Bremen. Wir sind in einem Elternverein
 organisiert. Die Kantine des LidiceHaus versorgt die Wildzwerge täglich mit
 vegetarischem Mittagessen.
 
-Aktuell besteht das Team aus 3 ErzieherInnen, einer PraktikantIn und einem
+In der Regel besteht das Team aus 3 ErzieherInnen, einer PraktikantIn und einem
 FSJler.
 
 ## Betreuungszeiten
@@ -17,12 +17,12 @@ FSJler.
 <table>
   <tr>
     <td>Mo – Do</td>
-    <td>07:30 – 16:00 Uhr</td>
+    <td>07:30 – 15:45 Uhr</td>
   </tr>
 
   <tr>
     <td>Fr</td>
-    <td>07:30 – 14:00 Uhr</td>
+    <td>07:30 – 14:45 Uhr</td>
   </tr>
 </table>
 
@@ -41,6 +41,11 @@ Die Schließzeiten im Kindergartenjahr 2017/18 sind wie folgt:
     <td>23.12.2017 – 01.01.2018</td>
   </tr>
 
+  <tr>
+    <td>Planungstag (Team)</td>
+    <td>02.01.2018</td>
+  </tr>
+  
   <tr>
     <td>Osterferien</td>
     <td>24.03.2018 – 02.04.2018</td>

@@ -15,9 +15,6 @@ Weg zum Krähenberg 33A
 
 Karen Schuhmann (1. Vorstand)  
 Marie Tödtemann (2. Vorstand)  
-
-## Erweiterter Vorstand
-
 Ann-Kathrin Seiz (Kassenwärtin)
 
 ## Anschrift des Kindergartens

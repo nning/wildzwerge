@@ -7,8 +7,8 @@ order: 2
 
 ## Vereinsadresse
 
-Naturkindergarten Wildzwerge e.V.  
-Weg zum Krähenberg 33a
+Naturkindergarten Wildzwerge e.V.    
+Weg zum Krähenberg 33A  
 28201 Bremen
 
 ## Geschäftsführender Vorstand

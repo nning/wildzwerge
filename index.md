@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# Wilkommen!
+# Willkommen!
 
 Die Wildzwerge sind ein Naturkindergarten in direkter Nachbarschaft mit dem
 LidiceHaus auf dem Stadtwerder in Bremen. Wir sind in einem Elternverein

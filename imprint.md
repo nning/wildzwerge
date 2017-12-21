@@ -11,7 +11,7 @@ Naturkindergarten Wildzwerge e.V.
 Weg zum Krähenberg 33A  
 28201 Bremen
 
-## Geschäftsführender Vorstand
+## Vorstand
 
 Karen Schuhmann (1. Vorstand)  
 Marie Tödtemann (2. Vorstand)  

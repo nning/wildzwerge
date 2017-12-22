@@ -11,9 +11,9 @@ Karen Schumann (1. Vorstand)
 Marie Tödtemann (2. Vorstand)  
 Ann-Kathrin Seiz (Kassenwärtin)
 
-## Vereins- & Kindergartenadresse
+## Adresse des Vereins & Kindergartens
 
-Naturkindergarten Wildzwerge e.v.  
+Naturkindergarten Wildzwerge e.V.  
 Weg zum Krähenberg 33A  
 28201 Bremen
 

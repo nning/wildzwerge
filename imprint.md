@@ -5,22 +5,34 @@ permalink: /impressum/
 order: 2
 ---
 
-## Vorstand
-
-Karen Schumann (1. Vorstand)  
-Marie Tödtemann (2. Vorstand)  
-Ann-Kathrin Seiz (Kassenwärtin)
-
 ## Adresse des Vereins & Kindergartens
 
 Naturkindergarten Wildzwerge e.V.  
 Weg zum Krähenberg 33A  
 28201 Bremen
 
+<span data-schema="mailto" data-address="mail@wildzwerge.de"></span>
+
+Registergericht | Amtsgericht Bremen  
+Registernummer  | VR8049
+
+### Anreise
+
 <div id="map" class="map"></div>
 [Link auf OpenStreetMap](http://www.openstreetmap.org/?mlat=53.06180&mlon=8.82937#map=19/53.06180/8.82937)
 
-## Rechtliches
+## Vertretungsberechtigter Vorstand
+
+Karen Schumann (1. Vorsitzende)  
+Marie Tödtemann (2. Vorsitzende)
+
+## Gemeinnützigkeit
+
+Gemäß Freistellungsbescheid ist der Verein als gemeinnützig aufgrund der
+Förderung der Erziehung anerkannt und zur Ausstellung von
+Zuwendungsbestätigungen für Spenden und Mitgliedsbeiträge berechtigt.
+
+## Urheberrecht
 
 "Greenbeans" font is made by [Tup
 Wanders](http://www.fontspace.com/profile/Tuppus) and shared under the terms of

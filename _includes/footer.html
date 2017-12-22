@@ -1,15 +1,19 @@
 <footer class="content">
 
-  <ul>
-    <li>{{ site.title | escape }}</li>
-    <li>
-      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-    </li>
-  </ul>
+  <div>
+    <p>
+      {{ site.title | escape }}<br>
+      Weg zum Krähenberg 33A<br>
+      28201 Bremen
+    </p>
 
-  <span>
-    subscribe
-    <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
-  </span>
+    <p>
+      <span data-schema="mailto" data-address="mail@wildzwerge.de"></span>
+    </p>
+  </div>
+
+  <p>
+    <a href="{{ "/feed.xml" | relative_url }}">subscribe via RSS</a>
+  </p>
 
 </footer>

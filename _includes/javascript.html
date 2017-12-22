@@ -1,0 +1,17 @@
+<script type="text/javascript">
+  NodeList.prototype.forEach = Array.prototype.forEach;
+
+  document.getElementById('nav-button').addEventListener('change', function() {
+    document.querySelector('body').classList.toggle('blur');
+  });
+
+  window.onload = function() {
+  	document.querySelectorAll('[data-address]').forEach(function(e) {
+  		schema  = e.getAttribute('data-schema');
+  		address = e.getAttribute('data-address');
+  		target  = schema + ':' + address;
+
+  		e.innerHTML = '<a href="' + target + '">' + address + '</a>';
+  	});
+  }
+</script>

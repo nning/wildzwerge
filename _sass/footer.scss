@@ -6,14 +6,18 @@ footer {
   flex-direction: column;
 
   margin: 5rem 0;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
 
-  ul {
-    @include listreset();
-
+  :first-child {
     flex-grow: 1;
-    margin-bottom: 1rem;
   }
+
+  // ul {
+  //   @include listreset();
+  //
+  //   flex-grow: 1;
+  //   margin-bottom: 1rem;
+  // }
 
   a {
     color: $gray;

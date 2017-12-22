@@ -31,7 +31,7 @@ FSJler.
 Die Schließzeiten im Kindergartenjahr 2017/18 sind wie folgt:
 
 <table>
-  <tr>
+  <tr class="gray">
     <td>Herbstferien</td>
     <td>30.09.2017 – 08.10.2017</td>
   </tr>

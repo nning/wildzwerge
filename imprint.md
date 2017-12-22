@@ -7,7 +7,7 @@ order: 2
 
 ## Vorstand
 
-Karen Schuhmann (1. Vorstand)  
+Karen Schumann (1. Vorstand)  
 Marie Tödtemann (2. Vorstand)  
 Ann-Kathrin Seiz (Kassenwärtin)
 

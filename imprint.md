@@ -39,7 +39,7 @@ Wanders](http://www.fontspace.com/profile/Tuppus) and shared under the terms of
 [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 
 
-<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+<script src="//www.openlayers.org/api/OpenLayers.js"></script>
 <script>
   var map = new OpenLayers.Map('map');
   var mapnik = new OpenLayers.Layer.OSM();

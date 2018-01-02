@@ -4,7 +4,7 @@ description: >
   Naturkindergarten auf dem Stadtwerder in Bremen – Naturkindergarten
   Wildzwerge e.V.
 baseurl: ''
-url: 'http://wildzwerge.de/'
+url: 'https://wildzwerge.de/'
 
 markdown: kramdown
 plugins:

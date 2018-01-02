@@ -6,8 +6,7 @@ variables:
 before_script:
   - bundle install
 
-pages:
-  stage: test
+test:
   script:
     - bundle exec jekyll build
 

@@ -21,7 +21,7 @@ Fr      | 07:30 – 14:45 Uhr
 
 Die Schließzeiten im Kindergartenjahr 2017/18 sind wie folgt:
 
-<table>
+<table class="shrink-on-s">
   <tr data-gray-after="2017-10-08">
     <td>Herbstferien</td>
     <td>30.09.2017 – 08.10.2017</td>

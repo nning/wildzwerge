@@ -40,3 +40,12 @@ p, ul, table {
 .gray {
   color: $gray;
 }
+
+
+.shrink-on-s {
+  font-size: 12pt;
+
+  @include breakpoint($m) {
+    font-size: 14pt;
+  }
+}

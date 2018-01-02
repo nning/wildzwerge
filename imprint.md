@@ -18,7 +18,10 @@ Registernummer  | VR8049
 
 ### Anreise
 
-<div id="map" class="map"></div>
+<div id="map" class="map">
+  <div id="marker"></div>
+</div>
+
 [Link auf OpenStreetMap](http://www.openstreetmap.org/?mlat=53.06180&mlon=8.82937#map=19/53.06180/8.82937)
 
 ## Vertretungsberechtigter Vorstand
@@ -39,19 +42,38 @@ Wanders](http://www.fontspace.com/profile/Tuppus) and shared under the terms of
 [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 
 
-<script src="//www.openlayers.org/api/OpenLayers.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.4/ol.js">
+</script>
+
 <script>
-  var map = new OpenLayers.Map('map');
-  var mapnik = new OpenLayers.Layer.OSM();
-  var markers = new OpenLayers.Layer.Markers('Markers');
+  var head = document.getElementsByTagName('head')[0];
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = 'https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.4/ol.css';
+  head.appendChild(link);
 
-  map.addLayer(mapnik);
-  map.addLayer(markers);
+  var pos = ol.proj.fromLonLat([8.82937, 53.06180]);
 
-  var lonLat = new OpenLayers.LonLat(8.82937, 53.06180).transform(
-    new OpenLayers.Projection("EPSG:4326"), map.getProjectionObject()
-  );
+  var map = new ol.Map({
+    layers: [
+      new ol.layer.Tile({
+        source: new ol.source.OSM()
+      })
+    ],
+    target: 'map',
+    controls: ol.control.defaults(),
+    view: new ol.View({
+      center: pos,
+      zoom: 17
+    })
+  });
 
-  markers.addMarker(new OpenLayers.Marker(lonLat));
-  map.setCenter(lonLat, 17);
+  var markerElement = document.getElementById('marker');
+  var marker = new ol.Overlay({
+    position: pos,
+    element: markerElement
+  });
+
+  map.addOverlay(marker);
+  markerElement.style.display = 'block';
 </script>

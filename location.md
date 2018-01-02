@@ -7,7 +7,6 @@ order: 1
 
 Als Hauptquartier der Wildzwerge stehen zwei Zirkuswägen zur Verfügung.
 
-<div class="gallery">
-  <img alt="Zirkuswägen 1" src="/assets/images/zirkuswaegen1.jpg">
-  <img alt="Zirkuswägen 2" src="/assets/images/zirkuswaegen2.jpg">
-</div>
+{:.gallery}
+![Zirkuswägen 1](/assets/images/zirkuswaegen1.jpg)
+![Zirkuswägen 2](/assets/images/zirkuswaegen2.jpg)

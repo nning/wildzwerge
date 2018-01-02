@@ -6,6 +6,8 @@
   });
 
   window.onload = function() {
+    now = new Date();
+
   	document.querySelectorAll('[data-address]').forEach(function(e) {
   		schema  = e.getAttribute('data-schema');
   		address = e.getAttribute('data-address');
@@ -13,5 +15,11 @@
 
   		e.innerHTML = '<a href="' + target + '">' + address + '</a>';
   	});
+
+    document.querySelectorAll('[data-gray-after]').forEach(function(e) {
+      after = new Date(e.dataset.grayAfter);
+      after.setDate(after.getDate() + 1);
+      if (now > after) e.classList.add('gray');
+    })
   }
 </script>

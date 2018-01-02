@@ -7,13 +7,18 @@ before_script:
   - bundle install
 
 pages:
-  stage: deploy
+  stage: test
   script:
     - bundle exec jekyll build
-    - mkdir public
-    - mv _site/* public
-  artifacts:
-    paths:
-      - public
-  only:
-    - master
+
+# pages:
+#   stage: deploy
+#   script:
+#     - bundle exec jekyll build
+#     - mkdir public
+#     - mv _site/* public
+#   artifacts:
+#     paths:
+#       - public
+#   only:
+#     - master

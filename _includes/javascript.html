@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script>
   NodeList.prototype.forEach = Array.prototype.forEach;
 
   document.getElementById('nav-button').addEventListener('change', function() {
@@ -22,4 +22,9 @@
       if (now > after) e.classList.add('gray');
     })
   }
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.3/turbolinks.js"></script>
+<script>
+  Turbolinks.start()
 </script>

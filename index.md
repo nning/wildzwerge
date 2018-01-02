@@ -36,7 +36,7 @@ Die Schließzeiten im Kindergartenjahr 2017/18 sind wie folgt:
     <td>30.09.2017 – 08.10.2017</td>
   </tr>
 
-  <tr>
+  <tr class="gray">
     <td>Weihnachtsferien</td>
     <td>23.12.2017 – 01.01.2018</td>
   </tr>
@@ -45,7 +45,7 @@ Die Schließzeiten im Kindergartenjahr 2017/18 sind wie folgt:
     <td>Planungstag (Team)</td>
     <td>02.01.2018</td>
   </tr>
-  
+
   <tr>
     <td>Osterferien</td>
     <td>24.03.2018 – 02.04.2018</td>

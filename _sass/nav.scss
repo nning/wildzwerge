@@ -45,9 +45,15 @@ header nav {
       font-size: 3.2rem;
       color: $black;
       padding: 1rem;
+      transition: transform 100ms;
+
+      &:hover, &:focus {
+        text-decoration: none;
+        transform: scale(1.05);
+      }
 
       &--active {
-        text-decoration: underline;
+        background-color: rgba(#fff, .375);
       }
     }
   }
@@ -73,6 +79,10 @@ header nav {
       height: auto;
 
       padding: 0;
+
+      .menu-link {
+        margin-right: 1rem;
+      }
     }
   }
 }

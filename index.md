@@ -12,6 +12,8 @@ vegetarischem Mittagessen.
 In der Regel besteht das Team aus 3 ErzieherInnen, einer PraktikantIn und einem
 FSJler.
 
+**Wir können 2018 leider keine neuen Kinder aufnehmen!**
+
 ## Betreuungszeiten
 
 Mo – Do | 07:30 – 15:45 Uhr

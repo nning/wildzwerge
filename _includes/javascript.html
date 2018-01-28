@@ -11,9 +11,10 @@
   	document.querySelectorAll('[data-address]').forEach(function(e) {
   		schema  = e.getAttribute('data-schema');
   		address = e.getAttribute('data-address');
+      title = e.getAttribute('data-title') || address;
   		target  = schema + ':' + address;
 
-  		e.innerHTML = '<a href="' + target + '">' + address + '</a>';
+  		e.innerHTML = '<a href="' + target + '">' + title + '</a>';
   	});
 
     document.querySelectorAll('[data-gray-after]').forEach(function(e) {

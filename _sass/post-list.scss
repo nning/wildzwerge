@@ -1,0 +1,34 @@
+.post-list {
+  @include listreset();
+
+  li {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: .25rem;
+
+    @include breakpoint($m) {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    @include breakpoint($m) {
+      margin-right: 1rem;
+    }
+
+    &--bold {
+      font-weight: bold;
+    }
+  }
+
+  &__date {
+    font-size: 75%;
+    order: -1;
+
+    @include breakpoint($m) {
+      order: 0;
+    };
+  }
+}

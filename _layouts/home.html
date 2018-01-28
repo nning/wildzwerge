@@ -1,24 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="home">
-
   {{ content }}
-
-  {% if site.posts.size > 0 %}
-    <h2>Neuigkeiten</h1>
-
-    <ul>
-      {% for post in site.posts %}
-        <li>
-          <span>{{ post.date | date: '%b %-d, %Y' }}</span>
-
-          <h3>
-            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h2>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-
 </div>

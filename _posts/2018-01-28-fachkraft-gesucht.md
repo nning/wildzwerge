@@ -12,7 +12,7 @@ unsere zwei Bauwagen als Standortdomizil.
 Wir suchen einen engagierten Menschen, der Lust hat, ein noch junges Projekt
 mit weiterzuentwickeln und aufblühen zu lassen.
 
-## Wir brauchen einen Menschen, der...
+## Wir brauchen einen Menschen, der
 
 * Erfahrung in der Kindergartenarbeit mit 3-6 jährigen Kindern besitzt
 * eine staatlich anerkannte pädagogische Qualifikation, im besten Falle eine
@@ -26,7 +26,7 @@ mit weiterzuentwickeln und aufblühen zu lassen.
 * Offenheit und Bereitschaft für eine vertrauensvolle Zusammenarbeit mit den
   Eltern des Vereins mitbringt
 
-## Wir bieten...
+## Wir bieten
 
 * Eine Stelle mit ca. 30 Stunden
 * Großen Freiraum eigene Ideen miteinzubringen und am Konzept mitzugestalten

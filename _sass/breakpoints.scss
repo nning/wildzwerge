@@ -9,3 +9,9 @@ $xxl: 1440px;
     @content;
   }
 }
+
+@mixin breakpoint-only($min, $max) {
+  @media screen and (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}

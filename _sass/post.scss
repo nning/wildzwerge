@@ -2,4 +2,19 @@
   &__meta {
     font-size: 75%;
   }
+
+  &__content {
+    @include breakpoint-only($s, $m) {
+      display: flex;
+      flex-direction: column;
+
+      .gallery2, .gallery3 {
+        order: 2;
+
+        & + .gap {
+          display: none;
+        }
+      }
+    }
+  }
 }

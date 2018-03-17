@@ -1,4 +1,4 @@
-.gallery {
+.gallery2, .gallery3 {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
@@ -6,8 +6,16 @@
   img {
     max-width: 100%;
   }
+}
 
+.gallery2 {
   @include breakpoint($m) {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+.gallery3 {
+  @include breakpoint($m) {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

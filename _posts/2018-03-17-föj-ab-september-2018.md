@@ -38,3 +38,5 @@ Die Wildzwerge
 {:.gallery2}
 ![Weidenzelt](/assets/images/weidenzelt.jpg)
 ![Weidenzaun](/assets/images/weidenzaun.jpg)
+
+<small class="gray">Fotografie: Sandra Jaacks</small>

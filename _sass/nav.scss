@@ -53,6 +53,7 @@ header nav {
       color: $black;
       padding: 1rem;
       transition: transform 100ms;
+      line-height: .75;
 
       &:hover, &:focus {
         text-decoration: none;

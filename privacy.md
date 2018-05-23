@@ -8,11 +8,10 @@ permalink: /datenschutz/
 Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der
 Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb
 unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und
-Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf
-(nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die
-verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“
-verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung
-(DSGVO).
+Inhalte auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick
+auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder
+„Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der
+Datenschutzgrundverordnung (DSGVO).
 
 ## Verantwortlicher
 
@@ -22,9 +21,6 @@ Stelle.
 
 ## Arten der verarbeiteten Daten
 
-- Bestandsdaten (z.B. Namen, Adressen)
-- Kontaktdaten (z.B. E-Mail, Telefonnummern)
-- Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos)
 - Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten)
 -	Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen)
 
@@ -36,9 +32,7 @@ betroffenen Personen zusammenfassend auch als „Nutzer“).
 ## Zweck der Verarbeitung
 
 -	Zurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte.
--	Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.
 -	Sicherheitsmaßnahmen.
--	Reichweitenmessung/Marketing
 
 ## Verwendete Begrifflichkeiten
 
@@ -143,7 +137,7 @@ von Daten an Dritte geschieht, erfolgt dies nur, wenn es zur Erfüllung unserer
 rechtlichen Verpflichtung oder auf Grundlage unserer berechtigten Interessen
 geschieht. Vorbehaltlich gesetzlicher oder vertraglicher Erlaubnisse,
 verarbeiten oder lassen wir die Daten in einem Drittland nur beim Vorliegen der
-besonderen Voraussetzungen der Art. 44 ff.  DSGVO verarbeiten. D.h. die
+besonderen Voraussetzungen der Art. 44 ff. DSGVO verarbeiten. D.h. die
 Verarbeitung erfolgt z.B. auf Grundlage besonderer Garantien, wie der offiziell
 anerkannten Feststellung eines der EU entsprechenden Datenschutzniveaus (z.B.
 für die USA durch das „Privacy Shield“) oder Beachtung offiziell anerkannter
@@ -303,7 +297,7 @@ Auftragsverarbeitungsvertrag).
 
 ## Erhebung von Zugriffsdaten und Logfiles
 
-Wir, bzw. unser Hostinganbieter, erhebt auf Grundlage unserer berechtigten
+Wir bzw. unser Hostinganbieter, erhebt auf Grundlage unserer berechtigten
 Interessen im Sinne des Art. 6 Abs. 1 lit. f. DSGVO Daten über jeden Zugriff
 auf den Server, auf dem sich dieser Dienst befindet (sogenannte
 Serverlogfiles). Zu den Zugriffsdaten gehören Name der abgerufenen Webseite,

@@ -10,14 +10,14 @@ test:
   script:
     - bundle exec jekyll build
 
-# pages:
-#   stage: deploy
-#   script:
-#     - bundle exec jekyll build
-#     - mkdir public
-#     - mv _site/* public
-#   artifacts:
-#     paths:
-#       - public
-#   only:
-#     - master
+pages:
+  stage: deploy
+  script:
+    - bundle exec jekyll build
+    - mkdir public
+    - mv _site/* public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

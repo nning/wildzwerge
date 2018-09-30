@@ -2,6 +2,7 @@
 layout: post
 title: Ü3 Platz im Naturkindergarten!
 date: 2018-02-10 14:59
+invisible: true
 ---
 
 Vorausichtlich können wir demnächst einen Betreuungsplatz anbieten. Mit Blick

@@ -1,18 +1,21 @@
 {% if site.posts.size > 0 %}
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-list__title {% if post.important %} post-list__title--bold {% endif %}">
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}</a>
-        </span>
+      {% if post.invisible %}
+      {% else %}
+        <li>
+          <span class="post-list__title {% if post.important %} post-list__title--bold {% endif %}">
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}</a>
+          </span>
 
-        <span class="post-list__date">
-          <time datetime="{{ post.date | date_to_xmlschema }}">
-            {{ post.date | date: '%d.%m.%Y' }}
-          </time>
-        </span>
-      </li>
+          <span class="post-list__date">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: '%d.%m.%Y' }}
+            </time>
+          </span>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 {% endif %}

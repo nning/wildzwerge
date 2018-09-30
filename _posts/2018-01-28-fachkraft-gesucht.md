@@ -2,6 +2,7 @@
 layout: post
 title: Erfahrene pädagogische Fachkraft gesucht!
 date: 2018-01-28 14:05
+invisible: true
 ---
 
 Der Naturkindergarten Wildzwerge e.V. in Bremen sucht ab 1. März 2018 oder

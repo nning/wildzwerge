@@ -23,41 +23,36 @@ Fr      | 07:30 – 14:45 Uhr
 
 ## Schliesszeiten
 
-Die Schließzeiten im Kindergartenjahr 2017/18 sind wie folgt:
+Die (vorläufigen) Schließzeiten im Kindergartenjahr 2018/19 sind wie folgt:
 
 <table class="shrink-on-s">
-  <tr data-gray-after="2017-10-08">
-    <td>Herbstferien</td>
-    <td>30.09.2017 – 08.10.2017</td>
-  </tr>
-
-  <tr data-gray-after="2018-01-01">
-    <td>Weihnachtsferien</td>
-    <td>23.12.2017 – 01.01.2018</td>
-  </tr>
-
-  <tr data-gray-after="2018-01-02">
+  <tr data-gray-after="2018-09-28">
     <td>Planungstag (Team)</td>
-    <td>02.01.2018</td>
+    <td>28.09.2018</td>
   </tr>
 
-  <tr data-gray-after="2018-04-02">
-    <td>Osterferien</td>
-    <td>24.03.2018 – 02.04.2018</td>
+  <tr data-gray-after="2018-10-05">
+    <td>Herbstferien</td>
+    <td>01.10.2018 – 05.10.2018</td>
   </tr>
 
-  <tr data-gray-after="2018-05-01">
-    <td>Brückentag</td>
-    <td>29.04.2018 – 01.05.2018</td>
+  <tr data-gray-after="2018-11-09">
+    <td>Planungstag (Team)</td>
+    <td>09.11.2018</td>
   </tr>
 
-  <tr data-gray-after="2018-05-13">
-    <td>Brückentag</td>
-    <td>10.05.2018 – 13.05.2018</td>
+  <tr data-gray-after="2019-01-03">
+    <td>Weihnachtsferien</td>
+    <td>24.12.2017 – 03.01.2018</td>
   </tr>
 
-  <tr data-gray-after="2018-08-05">
-    <td>Sommerferien</td>
-    <td>21.07.2018 – 05.08.2018</td>
+  <tr data-gray-after="2019-01-04">
+    <td>Planungstag (Team)</td>
+    <td>04.01.2019</td>
+  </tr>
+
+  <tr data-gray-after="2019-04-18">
+    <td>Planungstag (Team)</td>
+    <td>18.04.2019</td>
   </tr>
 </table>
